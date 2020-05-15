@@ -1,0 +1,168 @@
+
+
+#texto-open{
+	float: left;
+	width: 50%;
+	margin:auto;
+	
+
+
+}
+
+#box{
+	overflow: hidden;
+	
+}
+
+#open{
+
+	background-color: rgb(240, 240, 241);
+	height: 90%;
+	overflow: hidden;
+	display: inline-block;
+	
+}
+
+#shelf-box{
+
+	width: auto;
+}
+
+#shelf{
+	float: right;
+	width: 65%;
+
+}
+
+#bar{
+	position: relative;
+	z-index: 2;
+}
+
+#opacity{
+	background-color: aquamarine;
+	height: 8vh;
+	z-index: 20;
+}
+
+
+
+
+#video{
+	background-color: rgb(59, 16, 98);
+	display: inline-block;
+}
+
+#vimeo{
+	margin: auto;
+	float: left;
+	width: 50%;
+	
+	background-color:white;
+}
+
+#texto-video{
+	margin: auto;
+	float: right;
+	width: 50%;
+	color: white;
+
+}
+
+#vantagens{
+	background-color: rgb(240, 240, 241) ;
+	display: inline-block;
+
+}
+
+.wrap-vantagens{
+	text-align: center;
+	margin-top:  4%;
+	margin-bottom: 2%
+	
+	
+	
+}	
+
+.vantagens-texto{
+	color: black;
+	width: 100%;
+
+}
+
+
+.icon-controle{
+	height: 22vh;
+	background-color: white;
+	margin: 1%;
+}
+
+.box-texto{
+	height: 25vh;
+
+}
+
+.body-button{
+	margin-bottom: 5%;
+}
+
+.funcoes-wrap{
+	margin-bottom: 3%;
+}
+
+.icon-vantagem{
+	height: 22vh;
+	background-color: rgb(240, 240, 241);
+	margin: 1%;
+}
+
+
+/* responsive stuff */
+
+
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 701px) {
+	div.texto-open {
+	  font-size: 1.2vw;
+	}
+	div.texto-open > h3{
+		font-size: 2.5vw;
+	}
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) and (min-width: 510) {
+	div.texto-open {
+	  font-size: 12px;
+	}
+	div.texto-open > h3{
+		font-size: 5vw;
+	}
+  }
+
+  
+  @media (min-width: 768px) {
+	.btn-responsive {
+	  padding: 10px 50px 10px 50px;
+	  font-size:1.3vw;
+	  line-height: 1;
+	  border-radius:3px;
+	}
+  }
+  
+  @media (max-width: 767px) and (min-width: 500px ) {
+	.btn-responsive {
+	  padding:4px 9px;
+	  font-size:1.8vw;
+	  line-height: 1.2;
+	}
+  }
+
+  @media all and (max-width: 700px) {
+	.hide {
+	  display: none;
+	}
+  }
+  
