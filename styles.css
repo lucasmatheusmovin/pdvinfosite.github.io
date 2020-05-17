@@ -4,46 +4,44 @@
 	float: left;
 	width: 50%;
 	margin:auto;
-	
-
-
+	height: 40vh;
 }
 
 #box{
 	overflow: hidden;
-	
+
 }
 
 #open{
-
 	background-color: rgb(240, 240, 241);
+	background-image: url(assets/shelf.png);
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: right;
 	height: 90%;
 	overflow: hidden;
-	display: inline-block;
-	
+	display: inline-block;	
 }
 
 #shelf-box{
-
 	width: auto;
 }
 
 #shelf{
 	float: right;
 	width: 65%;
-
 }
 
 #bar{
 	position: relative;
 	z-index: 2;
+	
+	background-color: rgb(64, 55, 194);
+	height: 3vh;
+	opacity: 0.5;
 }
 
-#opacity{
-	background-color: aquamarine;
-	height: 8vh;
-	z-index: 20;
-}
+
 
 
 
@@ -57,7 +55,6 @@
 	margin: auto;
 	float: left;
 	width: 50%;
-	
 	background-color:white;
 }
 
@@ -115,6 +112,20 @@
 	background-color: rgb(240, 240, 241);
 	margin: 1%;
 }
+
+
+
+#decisoes{
+	background-color: rgb(240, 240, 241) ;
+	height: 900px;
+}
+
+
+
+
+
+
+
 
 
 /* responsive stuff */
