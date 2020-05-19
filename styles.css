@@ -1,25 +1,25 @@
 
 
 #texto-open{
-	float: left;
-	width: 50%;
-	margin:auto;
-	height: 40vh;
+	
+	width: 80vw;
+	margin-left:20%;
+	height: 60%;
+	margin-bottom: 2%;
+	display: inline-block;
 }
 
 #box{
 	overflow: hidden;
-
+	display: inline-block;
 }
 
 #open{
 	background-color: rgb(240, 240, 241);
 	background-image: url(assets/shelf.png);
-	background-size: 30%;
+	background-size: 40%;
 	background-repeat: no-repeat;
 	background-position: right;
-	height: 90%;
-	overflow: hidden;
 	display: inline-block;	
 }
 
@@ -123,30 +123,44 @@
 
 
 
-
-
-
-
-
 /* responsive stuff */
 
 
 
 
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 701px) {
+/* If the screen size is 574px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 576px) {
 	div.texto-open {
-	  font-size: 1.2vw;
+	  font-size: 1.6vw;
 	}
+	
 	div.texto-open > h3{
 		font-size: 2.5vw;
 	}
   }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) and (min-width: 510) {
+  @media screen and (max-width: 575px) {
 	div.texto-open {
 	  font-size: 12px;
+	  margin-left: 10% !important; 
+	
+	}
+	div.texto-open button{
+		text-align: center;
+		font-size: 4vw;
+	}
+	#box{
+		width: 100%;
+	}
+	#open{
+		background-image: none;
+	}
+	#bar{
+		display: none;
+	}
+	#shelf-box{
+		width: 0;
 	}
 	div.texto-open > h3{
 		font-size: 5vw;
@@ -171,9 +185,5 @@
 	}
   }
 
-  @media all and (max-width: 700px) {
-	.hide {
-	  display: none;
-	}
-  }
+  
   
